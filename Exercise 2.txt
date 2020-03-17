@@ -1,0 +1,40 @@
+Exercise2
+
+In this project we can create five packages inside the src/main/java. They are
+1)com.exercise.controller
+2)com.exercise.entity
+3)com.exercise.ex_2
+4)com.exercise.repository
+5)com.exercise.service
+ 	
+	Details of each package
+
+1)com.exercise.controller
+	This contains a class called ItemController.java.
+	The controller is used to control the data flow and to view whatever changes should occur.
+2)com.exercise.entity
+	This contains a class called item.java.
+	The entity is used to map class to the table.
+	Here we should declare the variables that used in the program. And also we should add the table name and column name as like   		declared in the database.
+3)com.exercise.ex_2
+	This contains a class called Ex_2_Application.java.
+	This is the main method where program execution begins. 
+4)com.exercise.repository
+	This contains an interface called ItemRepository.java.
+	The repository is used for storage,retrieval and search objects from a collection of objects.
+	Java Persistence API(JPA) is Java's standard API for object-relational mapping.
+5)com.exercise.service
+	This contains a class called ItemManager.java.
+	The service is used for defining the services, the activities that done by the program should be embedded here.
+
+		src/main/resources
+
+This contains application.properties.
+Here we can define various default properties.
+
+		pom.xml
+
+This is a file for configurating Apache Maven.
+We need to specify the dependencies here.
+It help  to add required .jar files automatically using maven
+ 
